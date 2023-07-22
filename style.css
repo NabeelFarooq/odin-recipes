@@ -1,18 +1,54 @@
 body {
-    background-color: lightgrey;
+    background-color: #435B66;
     font-family: sans-serif,serif,monospace;
     font-size: large;
     font-weight: normal;
     color: orangered;
 }
-h1 {
-    font-family: monospace, sans-serif, serif;
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
-    color: darkred;
-}
 img {
     width: 500px;
     height: auto;
+}
+a {
+    text-decoration: none;
+}
+.recipe-card {
+    width: 400px;
+    padding: 8px;
+    background: #A76F6F;
+    margin: 0px auto;
+}
+.title {
+    font-family: serif,monospace,sans-serif;
+    font-size: 20px;
+    color: hsl(353, 93%, 46%);
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.unordered-list {
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.kheer{
+    padding: 10px;
+    margin: 20px auto;
+    background: #435B66;
+    display: block;
+    text-align: center;
+}
+.mint-mojito {
+    padding: 10px;
+    margin: 20px auto;
+    background: #435B66;
+    display: block;
+    text-align: center;
+}
+.Chicken-Chowmein {
+    padding: 10px;
+    margin: 20px auto;
+    background: #435B66;
+    display: block;
+    text-align: center;
 }
